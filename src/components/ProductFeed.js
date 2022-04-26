@@ -16,7 +16,7 @@ const ProductFeed = ({ products }) => {
             description={description}
             category={category}
             image={image}
-            rating={Math.floor(rating.rate)}
+            rating={Math.floor(rating.rate+ 0.6) }
           />
         ))}
      <img
